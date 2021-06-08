@@ -77,7 +77,7 @@ public class ProductController {
 		
 		CookieGenerator cookie = new CookieGenerator();
 	    
-		history = "history" + "," + prodNo;
+		history = "history" + prodNo;
 		cookie.setCookieName("history");
 	    cookie.addCookie(response, history);
 		
